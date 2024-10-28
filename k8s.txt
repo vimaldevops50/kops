@@ -38,7 +38,7 @@ this bucket will become the source of truth for our cluster configuration. In th
 add a custom prefix as bucket names need to be unique.
 
 # aws s3api create-bucket --bucket awsnaresh --region us-east-1
-# aws s3api put-bucket-versioning --bucket awsdamo --versioning-configuration status=Enabled
+# aws s3api put-bucket-versioning --bucket awsnaresh --versioning-configuration Status=Enabled
 
 NODES AUTHENTICATION METHODS
 
