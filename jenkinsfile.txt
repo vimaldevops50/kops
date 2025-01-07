@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://githu.com'
+                git 'https://github.com'
             }
         }
         stage('build the Docker image') {
